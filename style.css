@@ -9,6 +9,7 @@ input{
     font-size:34px;
     border: 5px solid black;
     border-radius: 21px;
+    padding:7px;
 }
 button{
     font-size: 45px;
