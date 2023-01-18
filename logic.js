@@ -10,6 +10,20 @@ for(item of buttons){
             screenValue+=buttonText;
             screen.value=screenValue;
         }
+        else if(buttonText=='EXP'){
+            buttonText='**';
+            screenValue+=buttonText;
+            screen.value=screenValue;
+        }
+        else if(buttonText=='SQ'){
+            buttonText='**2';
+            screenValue+=buttonText;
+            screen.value=screenValue;
+        }
+        else if(buttonText=='BS'){
+            screenValue=screenValue.substring(0,screenValue.length-1);
+            screen.value=screenValue;
+        }
         else if(buttonText=='C'){
             screenValue=' ';
             screen.value=screenValue;

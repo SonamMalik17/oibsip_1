@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&display=swap');
 .container{
     text-align:center;
     margin-top:23px;
 }
 table{
     margin:auto;
+    margin-top:5px;
 }
 input{
     font-size:34px;
@@ -12,16 +14,27 @@ input{
     padding:7px;
 }
 button{
-    font-size: 45px;
-    background-color: #00bcd4;
+    font-size: 44px;
+    background-color: #637375;
     width: 102px;
     height: 60px;
     border-radius: 20px;
+}
+button:hover{
+    background-color:#bdd1d4;
+    cursor:pointer;
 }
 .calculator{
     display: inline-block;
     border: 2px solid black;
     border-radius: 21px;
     padding: 10px;
-    background-color: #d3064c;
+    background-color: #000000;
+}
+h1{
+    font-size: 4.2em;
+    /* font-family:'Great Vibes', cursive; */
+    font-family:'Kaushan Script', cursive;
+    -webkit-text-fill-color:rgb(0, 0, 0);
+    text-shadow: 4px 4px 8px #708d91;
 }
